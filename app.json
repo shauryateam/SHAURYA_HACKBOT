@@ -1,0 +1,44 @@
+{
+    "name": "Shaurya hack Bot",
+    "description": "A bot CAN DO ANYTHING",
+    "logo": "https://te.legra.ph/file/e3e5237368c5deea1b673.jpg",
+    "keywords": [
+        "TELETHON",
+        "TEAM_SHAURYA",
+        "Telegram Bot",
+        "TSF FIGHTER",
+        "II_TSF_CO_OWNER_II"
+    ],
+    "website": "",
+    "success_url": "https://telegram.dog/II_TSF_CO_OWNER_II",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "YOUR_NAME": {
+            "description": "NAME DALO MAHRAAAAAAJ APNA,
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
