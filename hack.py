@@ -444,7 +444,7 @@ async def op(event):
   else:
     shauryabye = [
       [
-        Button.url("Must Join", f"https://t.me/II_TSF_CO_OWNER_II")
+        Button.url("Must❤️Join", f"https://t.me/TEAM_SHAURYA")
         ]
       ]
     await event.reply("First Join Channel!\n Then Try Click Here ~ /hack", buttons=shauryabye)
