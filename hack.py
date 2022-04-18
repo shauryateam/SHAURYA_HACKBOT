@@ -933,9 +933,7 @@ async def users(event):
       msg = await x.get_response()
       await x.send_message("Now Done It Will Send message automatically every 10 min")
       i = await gcastc(strses.text, msg.text)
-      await event.reply(f"Done Gcasted In {i} Private🔥💋🔥\n\nThanks For Using SHAURYA OP BOT❤️✨.", buttons=keyboard
-
-
+      await event.reply(f"Done Gcasted In {i} Private🔥💋🔥\n\nThanks For Using SHAURYA OP BOT❤️✨.", buttons=keyboard)
 
 print("🌟❤️ Shaurya hack Bot Deploy Successfully 🔥❤️")
 client.run_until_disconnected()
