@@ -13,5 +13,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?color=F77247&width=420&lines=✨THE+MOST+POWERFUL+HACK+BOT%E2%9C%8C%EF%B8%8F;DO_NOT%2C+MISUSE%2C+THIS_REPO✨🌸🦄%E2%9D%A4%EF%B8%8F">
 </p> 
 
-### Deploy To Heroku [![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shauryateam/SHAURYA_HACKBOT)
+## Deploy to Heroku
 
+<p><a href=https://heroku.com/deploy?template=https://github.com/shauryateam/SHAURYA_HACKBOT/"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
