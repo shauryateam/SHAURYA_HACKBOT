@@ -1,7 +1,7 @@
 {
     "name": "Shaurya hack Bot",
-    "description": "A bot CAN DO ANYTHING",
-    "logo": "https://te.legra.ph/file/e3e5237368c5deea1b673.jpg",
+    "description": "SHAURYA HACKBOT A BOT CAN DO ANYTHING",
+    "logo": "https://te.legra.ph/file/6f708944829659f30b5cc.jpg",
     "keywords": [
         "TELETHON",
         "TEAM_SHAURYA",
@@ -21,7 +21,7 @@
             "value": ""
         },
         "YOUR_NAME": {
-            "description": "Put Your name",
+            "description": "Put Your name Like SHAURYA",
             "value": ""
         },
         "APP_ID": {
